@@ -71,7 +71,6 @@ async function onPost() {
         body: JSON.stringify({ name, content })
     });
     const data = await response.json();
-    console.log(data);
     const comment = Object.values(data);
     list.prepend(createCommentCard(data));
 }
