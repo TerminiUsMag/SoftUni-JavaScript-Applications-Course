@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUID DEMO</title>
+    <script src="index.js" defer></script>
+    <style>
+        label {
+            display: block;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 15px;
+        }
+        article{
+            background-color: rgb(147, 147, 147);
+            margin: 32px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CRUD DEMO :)</h1>
+    <a href="auth.html">Login/Register</a>
+    <div>
+        <label>Name: <input type="text" name="name"></label>
+        <label>Comment: <textarea name="content"></textarea></label>
+        <button id="post">Send Comment</button>
+        <button id="get">Load Comments</button>
+    </div>
+    <div id="comments">
+
+    </div>
+
+
+</body>
+
+</html>
