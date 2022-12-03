@@ -15,7 +15,6 @@ async function onLogout(){
     });
     sessionStorage.clear();
 }
-
 async function onLogin(event) {
     event.preventDefault();
 
